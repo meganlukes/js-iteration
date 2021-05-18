@@ -133,9 +133,9 @@ function everyoneIsOdd(numbers) {
  *
  */
 
-// function findTheNeedle(strings) {
-//   // Your code here
-// }
+function findTheNeedle(strings) {
+  return strings.find(string => string.includes('needle'))
+}
 
 /*
  * 9) Define a function findTheNeedleIndex that accepts an array of
@@ -146,9 +146,9 @@ function everyoneIsOdd(numbers) {
  *
  */
 
-// function findTheNeedleIndex(strings) {
-//   // Your code here
-// }
+function findTheNeedleIndex(strings) {
+  return strings.findIndex(string => string.includes('needle'))
+}
 
 /*
  *` 10)  Define a function someoneToLove that accepts an array of
