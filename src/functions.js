@@ -23,6 +23,7 @@
  * strings as an argument and returns a new array with all
  * the words forced to uppercase
  *
+ *
  * NOTE: You may *not* use the `forEach` or `for` method.
  *
  */
@@ -30,9 +31,9 @@
 // Uncomment the function below. Then underneath, or replacing, the
 // line "// Your code here", write your implementation code.
 
-// function yelling(words) {
-//   // Your code here
-// }
+function yelling(words) {
+  return (yellingArray = words.map(word => word.toUpperCase()))
+}
 
 /**
  *
@@ -44,9 +45,9 @@
  *
  */
 
-// function doubleTrouble(numbers) {
-//   // Your code here
-// }
+function doubleTrouble(numbers) {
+  return (numberArray = numbers.map(number => number * 2))
+}
 
 /*
  * 3) Define a function named `stringyIndexes` that takes an array of
