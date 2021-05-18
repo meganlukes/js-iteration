@@ -105,9 +105,11 @@ function onlyTheEvenIndexedSurvive(numbers) {
  *
  */
 
-// function bestMoviesOfTheYear(movieObjectArray) {
-//   // Your code here
-// }
+function bestMoviesOfTheYear(movieObjectArray, Year) {
+  return (leastBadMovies = movieObjectArray
+    .filter(movie => movie.year === Year && movie.score > 90)
+    .map(movie => movie.name))
+}
 
 /*
  * 7) Define a function everyoneIsOdd that accepts an array of
