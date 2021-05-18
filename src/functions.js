@@ -72,9 +72,9 @@ function stringyIndexes(strings) {
  *
  */
 
-// function onlyTheEvenSurvive(numbers) {
-//   // Your code here
-// }
+function onlyTheEvenSurvive(numbers) {
+  return (evenArray = numbers.filter(number => number % 2 === 0))
+}
 
 /*
  * 5) Define a function onlyTheEvenIndexedSurvive that accepts an array of
