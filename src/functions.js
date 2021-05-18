@@ -159,9 +159,9 @@ function findTheNeedleIndex(strings) {
  *
  */
 
-// function someoneToLove(strings) {
-//   // Your code here
-// }
+function someoneToLove(strings) {
+  return strings.some(word => word.length === 4)
+}
 
 /*
  * 11)  Define a function objectKeys that accepts an object of
@@ -196,9 +196,12 @@ function findTheNeedleIndex(strings) {
  *
  */
 
-// function objectKeys(objectOfHobbies) {
-//   // Your code here
-// }
+function objectKeys(objectOfHobbies) {
+  return Object.keys(objectOfHobbies).map(key => {
+    const obj = objectOfHobbies[key]
+    return `${key} - ${obj.title}`
+  })
+}
 
 /**
  *
